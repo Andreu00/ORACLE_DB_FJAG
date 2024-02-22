@@ -10,7 +10,12 @@ public class App
     {
         AccesoOracle a=new AccesoOracle();
         a.abrirConexion();
-        a.mostrarContactios();
+        //a.crearTablaMisAlumnos();
+        //a.insertarEstudiante();
+        //a.borrarAlumnoPorNombre("Juan");
+        //a.buscarTelefonoPorNombre("Andreu");
+        a.mostrarTodosLosAlumnos();
+        //a.mostrarInfoAdmitidos();
         a.cerrarConexion();
     }
 }
