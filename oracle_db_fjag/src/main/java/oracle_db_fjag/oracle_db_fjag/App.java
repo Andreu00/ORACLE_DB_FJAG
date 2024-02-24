@@ -14,8 +14,8 @@ public class App
         //a.insertarEstudiante();
         //a.borrarAlumnoPorNombre("Juan");
         //a.buscarTelefonoPorNombre("Andreu");
-        a.mostrarTodosLosAlumnos();
-        //a.mostrarInfoAdmitidos();
+        //a.mostrarTodosLosAlumnos();
+        a.mostrarInfoAdmitidos();
         a.cerrarConexion();
     }
 }
